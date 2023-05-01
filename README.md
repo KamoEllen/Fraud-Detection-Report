@@ -26,7 +26,10 @@ There is a significant correlation between the Class (fraud or legit transaction
 
 Identifying Fraudulent Transactions: Utilizing Correlation Heatmap Analysis of Features in Dataset for Prediction
 <hr>
-
+<div style="display: flex;">
+    <div style="flex-basis: 50%;">
+        <img src="https://github.com/KamoEllen/Fraud-Detection-Report/blob/main/heatmap.png" alt="Heatmap" width="400"/>
+    </div>
 <pre><code>
 <div>
 import pandas as pd
