@@ -94,10 +94,8 @@ plt.show()
 
 Source:
 <hr>
-Kaggle. (n.d.). Credit Card Fraud Detection. 
 
-[here](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
-
+Kaggle. (n.d.). Credit Card Fraud Detection. Retrieved from https://www.kaggle.com/mlg-ulb/creditcardfraud
 
 Kount. (2018). Fraud prevention benchmark report. Retrieved from https://www.kount.com/resources/fraud-prevention-benchmark-report
 
