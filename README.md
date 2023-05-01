@@ -1,12 +1,30 @@
 # Fraud-Detection-Report
+<hr>
 Credit Card Fraud Detection using Logistic Regression in Python
+
+<hr>
+
+Hypothesis:
+
+1.Fraudulent transactions tend to involve larger amounts of money than normal transactions.
+
+2.Can the dataset help predict whether a transaction is fraudulent based on the correlation between fraudulent and legitimate transactions?
+
+<hr>
+Hypothesis and Analysis:
+
+Fraudulent transactions tend to involve larger amounts of money than normal transactions:
+The bar graph shows that the mean transaction amount for "Fraud" category is higher (122.21) compared to the "Normal" category (88.29). Therefore, we can conclude that on average, fraudulent transactions tend to involve larger amounts of money than normal transactions. Additionally, various studies such as the report by Kount and The Fraud Practice and the study by the Federal Reserve Bank of New York also support this hypothesis.
+
+Can the dataset help predict whether a transaction is fraudulent based on the correlation between fraudulent and legitimate transactions:
+There is a significant correlation between the Class (fraud or legit transaction) and some of the features (V1 to V28) in the dataset. In particular, V3, V4, V9, V10, V11, V12, V14, V16, and V17 show a relatively strong correlation with the Class variable, indicating that they may be useful in predicting whether a transaction is fraudulent or not. Therefore, the dataset can be helpful in predicting whether a transaction is fraudulent or not based on the correlation between fraudulent and legitimate transactions. 
 
 <hr>
 You can find the credit card fraud dataset [here](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
 
 
 <hr>
-Based on the correlation heatmap, there is a significant correlation between the Class (fraud or legit transaction) and some of the features (V1 to V28) in the dataset. In particular, V3, V4, V9, V10, V11, V12, V14, V16, and V17 show a relatively strong correlation with the Class variable, indicating that they may be useful in predicting whether a transaction is fraudulent or not. 
+Identifying Fraudulent Transactions: Utilizing Correlation Heatmap Analysis of Features in Dataset for Prediction
 <hr>
 
 <pre><code>
@@ -63,7 +81,7 @@ plt.show()
   
 
 <hr>
-The bar graph shows that the mean transaction amount for "Fraud" category is higher (122.21) compared to the "Normal" category (88.29). Therefore, we can conclude that on average, fraudulent transactions tend to involve larger amounts of money than normal transactions.
+Fraudulent Transactions Involve Larger Amounts of Money on Average
 <hr>
 <pre><code>
 <div>
