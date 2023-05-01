@@ -2,6 +2,11 @@
 Credit Card Fraud Detection using Logistic Regression in Python
 
 <hr>
+link to Kaggle dataset 
+[click](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
+
+<hr>
 Based on the correlation heatmap, there is a significant correlation between the Class (fraud or legit transaction) and some of the features (V1 to V28) in the dataset. In particular, V3, V4, V9, V10, V11, V12, V14, V16, and V17 show a relatively strong correlation with the Class variable, indicating that they may be useful in predicting whether a transaction is fraudulent or not. 
 <hr>
 
