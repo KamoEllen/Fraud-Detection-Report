@@ -20,6 +20,7 @@ Can the dataset help predict whether a transaction is fraudulent based on the co
 There is a significant correlation between the Class (fraud or legit transaction) and some of the features (V1 to V28) in the dataset. In particular, V3, V4, V9, V10, V11, V12, V14, V16, and V17 show a relatively strong correlation with the Class variable, indicating that they may be useful in predicting whether a transaction is fraudulent or not. Therefore, the dataset can be helpful in predicting whether a transaction is fraudulent or not based on the correlation between fraudulent and legitimate transactions. 
 
 <hr>
+
 You can find the credit card fraud dataset [here](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
 
 
@@ -32,7 +33,6 @@ Identifying Fraudulent Transactions: Utilizing Correlation Heatmap Analysis of F
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-
 # creating dataframe
 data = pd.DataFrame({
     'Class': [0, 1],
@@ -66,15 +66,11 @@ data = pd.DataFrame({
     'V27': [-0.000295, 0.170575],
     'V28': [-0.000131, 0.075667]
 })
-
 #correlation matrix
 corr_matrix = data.corr()
-
 #heatmap using seaborn package
 sns.heatmap(corr_matrix, cmap='coolwarm', annot=True, fmt='.2f')
-
 plt.title('Correlation Heatmap for Fraud and Legit Transactions')
-
 plt.show()
 </div>
  </code></pre>
