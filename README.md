@@ -10,6 +10,7 @@ Based on the correlation heatmap, there is a significant correlation between the
 <hr>
 
 <pre><code>
+<div>
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -57,11 +58,14 @@ sns.heatmap(corr_matrix, cmap='coolwarm', annot=True, fmt='.2f')
 plt.title('Correlation Heatmap for Fraud and Legit Transactions')
 
 plt.show()
+</div>
  </code></pre>
   
 
 <hr>
+
 <pre><code>
+<div>
 import matplotlib.pyplot as plt
 categories = ['Fraud', 'Normal']
 means = [122.21, 88.29]
@@ -70,4 +74,5 @@ plt.xlabel('Transaction Category')
 plt.ylabel('Mean Transaction Amount')
 plt.title('Comparison of Mean Transaction Amounts')
 plt.show()
+</div>
 </code></pre>
