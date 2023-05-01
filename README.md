@@ -81,6 +81,10 @@ plt.show()
 <hr>
 Fraudulent Transactions Involve Larger Amounts of Money on Average
 <hr>
+<div style="display: flex;">
+    <div style="flex-basis: 50%;">
+        <img src="https://github.com/KamoEllen/Fraud-Detection-Report/blob/main/compare_mean.png" alt="Compare Mean" width="400"/>
+    </div>
 <pre><code>
 <div>
 import matplotlib.pyplot as plt
