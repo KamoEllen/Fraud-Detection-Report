@@ -99,6 +99,26 @@ plt.show()
 </code></pre>
 <hr>
 
+<div style="display: flex;">
+    <div style="flex-basis: 50%;">
+        <img src="https://github.com/KamoEllen/Fraud-Detection-Report/blob/main/Fraudulent%20Transaction%20Comparison.png" alt="Fraudulent_20Transaction_20Comparison" width="400"/>
+    </div>
+<pre><code>
+<div>
+import numpy as np
+import matplotlib.pyplot as plt
+categories = ['Median Loss', 'Average Transaction Value', 'Average Fraudulent Transaction Size']
+means = [150000, 254, 1.7*227] # converting the average fraudulent transaction size from USD 353 to USD 603 (70% larger than domestic fraudulent transactions)
+
+# Create line chart
+fig, ax = plt.subplots()
+ax.plot(categories, means, marker='o')
+ax.set_xlabel('Transaction Category')
+ax.set_ylabel('Transaction Amount (USD)')
+ax.set_title('Comparison of Fraudulent vs Normal Transactions')
+plt.show()
+</div>
+</code></pre>
 Source:
 <hr>
 
