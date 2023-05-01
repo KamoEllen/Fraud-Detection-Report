@@ -61,3 +61,13 @@ plt.show()
   
 
 <hr>
+<pre><code>
+import matplotlib.pyplot as plt
+categories = ['Fraud', 'Normal']
+means = [122.21, 88.29]
+plt.bar(categories, means)
+plt.xlabel('Transaction Category')
+plt.ylabel('Mean Transaction Amount')
+plt.title('Comparison of Mean Transaction Amounts')
+plt.show()
+</code></pre>
