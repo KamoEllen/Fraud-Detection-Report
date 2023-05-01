@@ -1,7 +1,10 @@
 # Fraud-Detection-Report
 Credit Card Fraud Detection using Logistic Regression in Python
 
-
+<hr>
+Based on the correlation heatmap, there is a significant correlation between the Class (fraud or legit transaction) and some of the features (V1 to V28) in the dataset. In particular, V3, V4, V9, V10, V11, V12, V14, V16, and V17 show a relatively strong correlation with the Class variable, indicating that they may be useful in predicting whether a transaction is fraudulent or not. 
+<hr>
+<code>
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -49,3 +52,6 @@ sns.heatmap(corr_matrix, cmap='coolwarm', annot=True, fmt='.2f')
 plt.title('Correlation Heatmap for Fraud and Legit Transactions')
 
 plt.show()
+<code>
+
+<hr>
