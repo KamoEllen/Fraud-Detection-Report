@@ -63,7 +63,7 @@ plt.show()
   
 
 <hr>
-
+The bar graph shows that the mean transaction amount for "Fraud" category is higher (122.21) compared to the "Normal" category (88.29). Therefore, we can conclude that on average, fraudulent transactions tend to involve larger amounts of money than normal transactions.
 <pre><code>
 <div>
 import matplotlib.pyplot as plt
