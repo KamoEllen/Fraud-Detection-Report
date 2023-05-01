@@ -91,3 +91,14 @@ plt.title('Comparison of Mean Transaction Amounts')
 plt.show()
 </div>
 </code></pre>
+<hr>
+
+Source:
+<hr>
+Kaggle. (n.d.). Credit Card Fraud Detection. Retrieved from https://www.kaggle.com/mlg-ulb/creditcardfraud
+
+Kount. (2018). Fraud prevention benchmark report. Retrieved from https://www.kount.com/resources/fraud-prevention-benchmark-report
+
+The Fraud Practice. (2018). 2018 true cost of fraud℠ study: e-commerce/Retail Edition. Retrieved from https://www.fraudpractice.com/p-156-2018-true-cost-of-fraud-sm-study-e-commerceretail-edition.aspx
+
+Federal Reserve Bank of New York. (2016). Cybersecurity and financial stability: Risks and resilience. Retrieved from https://www.newyorkfed.org/medialibrary/media/research/conference/2016/Cybersecurity-and-Financial-Stability-Risks-and-Resilience.pdf
