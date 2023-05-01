@@ -2,9 +2,7 @@
 Credit Card Fraud Detection using Logistic Regression in Python
 
 <hr>
-link to Kaggle dataset 
-
-[click](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+You can find the credit card fraud dataset [here](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
 
 
 <hr>
