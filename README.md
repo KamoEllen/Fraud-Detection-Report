@@ -23,10 +23,7 @@ There is a significant correlation between the Class (fraud or legit transaction
 
 <hr>
 
-You can find the credit card fraud dataset [here](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
 
-
-<hr>
 Identifying Fraudulent Transactions: Utilizing Correlation Heatmap Analysis of Features in Dataset for Prediction
 <hr>
 
@@ -97,7 +94,8 @@ plt.show()
 
 Source:
 <hr>
-Kaggle. (n.d.). Credit Card Fraud Detection. Retrieved from https://www.kaggle.com/mlg-ulb/creditcardfraud
+Kaggle. (n.d.). Credit Card Fraud Detection. [here](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
+
 
 Kount. (2018). Fraud prevention benchmark report. Retrieved from https://www.kount.com/resources/fraud-prevention-benchmark-report
 
